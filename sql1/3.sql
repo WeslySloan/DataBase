@@ -1,0 +1,2 @@
+Select length, year from MOVIE
+WHERE TITLE = LOWER('COAL MINER''S DAUGHTER');
