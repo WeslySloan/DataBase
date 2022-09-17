@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="test_domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="TitleType" id="09AEBA82-457E-BAD5-1B5C-C7BA0C9B91B9">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-19 18:04:29 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="IDType" id="211AECCB-499B-9932-FA67-53F8C484EB83">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:36:58 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="GenderType" id="21841C07-71C3-17A0-E6E5-5A731C015E71">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:38:56 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="female" description=""/>
+<valueDef value="male" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="LenType" id="399131D6-5553-D2CB-49F8-10588FF4DEA3">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:36:07 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>300</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="AddrType" id="4468D8D8-40A3-BAEB-2BB2-44691371B192">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:35:06 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="FilmType" id="6263533C-BB2F-CE39-7378-1DEFA890AB21">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:30:56 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>6</dataTypeSize>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="FALSE" description=""/>
+<valueDef value="TRUE" description=""/>
+<valueDef value="false" description=""/>
+<valueDef value="true" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NameType" id="7CE69F74-C3C4-F109-3A15-15BC0B2250F2">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-05 14:30:24 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NetworthType" id="7D2982F8-5B91-AF3C-7039-F5E7DC2E85C5">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:40:36 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>12</dataTypePrecision>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>5000</beginValue>
+<endValue>999999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="YearType" id="8B229F96-47B5-971C-FBF6-A934EEAAD5C5">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:35:35 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2013</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DateType" id="9B38BEE5-2D1E-FF2B-41FE-C78237FCF080">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:39:44 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>test_domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

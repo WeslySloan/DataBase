@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EEA503B-B3AD-60B2-A7B8-E53270D09934" name="Studio">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-05 14:53:09 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="AA287313-35D6-2880-49E6-EBD8C6F33178">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-05 14:53:25 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="false"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7CE69F74-C3C4-F109-3A15-15BC0B2250F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="BA33F48F-EFE6-2504-C06B-01A53D218CB2">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-05 14:53:39 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4468D8D8-40A3-BAEB-2BB2-44691371B192</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presNo" id="4ACB9331-6863-ACB1-D2B7-83409380A5A5">
+<createdBy>shhong</createdBy>
+<createdTime>2014-03-10 14:42:03 UTC</createdTime>
+<generatorID>6B85C323-9AF2-6244-902A-73A953680587</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8426E3A3-6AD9-C3B6-A7AC-30F59413D12F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>211AECCB-499B-9932-FA67-53F8C484EB83</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DB8A3BA-700C-BEFB-4702-0DF078ACBD71" name="StudiosPK">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-05 14:53:36 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA287313-35D6-2880-49E6-EBD8C6F33178</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D3132C6-FE42-45C9-E69E-EF96F8AF256F" name="Contracts">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-10 14:09:34 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="C7D10EA7-2FB9-1DC5-F2CC-E018586B966B" value="true"/>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="guarantee" id="27A5BB18-B1DD-4248-058E-4E609B0EFB45">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-10 14:09:52 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="C7D10EA7-2FB9-1DC5-F2CC-E018586B966B" value="true"/>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D2982F8-5B91-AF3C-7039-F5E7DC2E85C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>5000</beginValue>
+<endValue>999999999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Title" id="5A9550DA-D459-DED3-15FC-5421EA1D20DD">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-10 14:10:30 UTC</createdTime>
+<generatorID>CE47253C-047B-B662-3942-44B8ACA6C2C5</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="C7D10EA7-2FB9-1DC5-F2CC-E018586B966B" value="true"/>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<referedAttribute>118DB5E2-CB2A-6F73-9A8C-7A671584DBFC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<domain>09AEBA82-457E-BAD5-1B5C-C7BA0C9B91B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="B9AA6390-4107-EE01-9E5A-9D9A8C440F55">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-10 14:10:30 UTC</createdTime>
+<generatorID>CE47253C-047B-B662-3942-44B8ACA6C2C5</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="C7D10EA7-2FB9-1DC5-F2CC-E018586B966B" value="true"/>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<referedAttribute>3C4A03C0-61EA-7F6A-E6D6-B38C99E843F7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8B229F96-47B5-971C-FBF6-A934EEAAD5C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2013</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="StarName" id="71A1353E-520C-0706-BEAA-91D3EECA6F74">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-10 14:10:47 UTC</createdTime>
+<generatorID>40429238-AB6C-7C75-AA2F-470699B17C9D</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="C7D10EA7-2FB9-1DC5-F2CC-E018586B966B" value="true"/>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<referedAttribute>71B98008-94B0-4D1C-95C4-A8C5A5491A85</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7CE69F74-C3C4-F109-3A15-15BC0B2250F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StudioName" id="8B505522-182F-53FD-904B-A1719443A3E9">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-10 14:37:03 UTC</createdTime>
+<generatorID>5022AFD0-A58F-F519-F750-9BC9594BE0EA</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="C7D10EA7-2FB9-1DC5-F2CC-E018586B966B" value="true"/>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<referedAttribute>AA287313-35D6-2880-49E6-EBD8C6F33178</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7CE69F74-C3C4-F109-3A15-15BC0B2250F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF474682-74E6-5A1C-D3B7-CDF0F4864B16" name="Contracts PK">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-10 14:12:31 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C7D10EA7-2FB9-1DC5-F2CC-E018586B966B" value="false"/>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A9550DA-D459-DED3-15FC-5421EA1D20DD</attributeRef>
+<attributeRef>B9AA6390-4107-EE01-9E5A-9D9A8C440F55</attributeRef>
+<attributeRef>71A1353E-520C-0706-BEAA-91D3EECA6F74</attributeRef>
+<attributeRef>8B505522-182F-53FD-904B-A1719443A3E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

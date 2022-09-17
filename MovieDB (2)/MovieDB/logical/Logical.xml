@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4BC7EA66-A906-640D-F5A9-B10C5827D069" mainViewID="9BD9EE91-3A66-E630-FCF8-E128560929E9">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-05 14:28:11 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieTest</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

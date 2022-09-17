@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="MovieDB_Ex">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="no_ty" id="19A8BDFF-B787-9424-54B6-8B0FFC630767">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-18 05:29:20 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<importedID>19A8BDFF-B787-9424-54B6-8B0FFC630767</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<fileName>MovieDB_Ex</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12cR2" definition="%COLUMN%  &gt;= 0 and %COLUMN% &lt; 10000000"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="net_ty" id="21289A44-A95F-D7CF-EBAC-68CAFC0E38C7">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-18 05:34:58 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>16</dataTypePrecision>
+<fileName>MovieDB_Ex</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="col_ty" id="5083244E-FB6A-00A9-B897-A6EAD5AAE734">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-18 05:36:13 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1</dataTypeSize>
+<fileName>MovieDB_Ex</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="F" description=""/>
+<valueDef value="T" description=""/>
+<valueDef value="f" description=""/>
+<valueDef value="t" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="name_ty" id="728C829B-EF49-EDF4-929D-F579849A3717">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-18 05:29:20 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<importedID>728C829B-EF49-EDF4-929D-F579849A3717</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>MovieDB_Ex</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="gender_ty" id="7EA9A959-A3DD-A658-4241-FF34B41ACBE0">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-18 05:29:20 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<importedID>7EA9A959-A3DD-A658-4241-FF34B41ACBE0</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>6</dataTypeSize>
+<fileName>MovieDB_Ex</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="female" description=""/>
+<valueDef value="male" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="addr_ty" id="AC5F60F1-8D78-F52F-1AD5-2494A7433B40">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-18 05:29:20 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<importedID>AC5F60F1-8D78-F52F-1AD5-2494A7433B40</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>200</dataTypeSize>
+<fileName>MovieDB_Ex</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="len_ty" id="D5A06238-E951-68A2-7859-CFE08AB4F13D">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-18 05:29:20 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<importedID>D5A06238-E951-68A2-7859-CFE08AB4F13D</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<fileName>MovieDB_Ex</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>400</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="birth_ty" id="F27B2A6C-9363-9286-C53C-BBC8257DB9CC">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-18 05:29:20 UTC</createdTime>
+<ownerDesignName>MovieDB_Ex</ownerDesignName>
+<importedID>F27B2A6C-9363-9286-C53C-BBC8257DB9CC</importedID>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MovieDB_Ex</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12cR2" definition="%COLUMN% &gt;= date  &apos;1900-01-01&apos;  and  %COLUMN%  &lt;= date  &apos;2020-01-01&apos;"/>
+</checkConstraint>
+</Domain>
+</domains>
+</DomainFile>

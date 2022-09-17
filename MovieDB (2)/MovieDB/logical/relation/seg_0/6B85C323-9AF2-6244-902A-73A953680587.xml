@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Runs" directorySegmentName="seg_0" id="6B85C323-9AF2-6244-902A-73A953680587">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-12 14:45:58 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<sourcePk>1DB8A3BA-700C-BEFB-4702-0DF078ACBD71</sourcePk>
+<targetPk>3D3267BD-F7AA-E437-435A-0A98BE3D842F</targetPk>
+<dominantRole>5E9CD48B-619E-A7BF-3D02-A7131BA088FD</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EEA503B-B3AD-60B2-A7B8-E53270D09934</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5E9CD48B-619E-A7BF-3D02-A7131BA088FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="OfficeRoomNo" id="9FFE249C-47D4-0DAD-69BF-3C5F3857DF2A">
+<createdBy>shhong</createdBy>
+<createdTime>2014-03-10 15:35:14 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

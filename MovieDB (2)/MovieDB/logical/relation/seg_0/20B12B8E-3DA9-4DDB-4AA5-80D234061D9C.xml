@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Own" directorySegmentName="seg_0" id="20B12B8E-3DA9-4DDB-4AA5-80D234061D9C">
+<createdBy>shhong</createdBy>
+<createdTime>2013-03-05 14:55:50 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="8D5A73A6-074F-7DC1-6EA6-C1148EEC00F9" value="true"/>
+</engineerTo>
+<sourcePk>1DB8A3BA-700C-BEFB-4702-0DF078ACBD71</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EEA503B-B3AD-60B2-A7B8-E53270D09934</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB7AFB14-57CC-A6CC-EDE4-3C560DE723D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

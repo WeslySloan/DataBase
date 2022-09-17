@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C7D10EA7-2FB9-1DC5-F2CC-E018586B966B" mainViewID="FE7E8746-1FE0-2AF4-70B7-2E4F87CDCFCF">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-10 14:38:02 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+</relationalModel>
