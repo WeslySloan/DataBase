@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89F9EB45-2681-32FF-19F4-70D3E26D87CC" name="PhoneNo">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>1F36CA17-DB8F-8775-A28B-930AD7C81E14</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="number" id="9881313B-3805-268B-F8E5-F0B8E541A0C1">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>8DE6F5A6-FFF0-CB57-9A15-87A382B88DCB</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12cR2" definition="%COLUMN% like &apos;010-____-____&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="88B26F3E-218B-3D8D-2B11-87F9456CC940">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>5345B892-36F6-71E1-4627-77AA4AF8C624</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sName" id="5CEB2E4B-E314-7D49-9E57-311BED835B92">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>966E7787-877E-F4DC-098E-E6CD02AE6F5B</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAAB4763-A664-6B2C-C6A7-EC94CF92B277" referredColumn="7D11AA6A-F253-A36F-8AF3-E3B363D9AB50"/>
+</associations>
+</Column>
+<Column name="execNo" id="4938E28D-4D6F-14B8-A2D3-E496C5FA9AED">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>C2B6A29D-48E8-0761-37B6-F19CCD349664</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6657AE37-4F2F-FE67-011F-3B022BFEC0AC" referredColumn="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA57488E-B207-73DF-A151-39DBF19D729B" name="PhoneNo_PK">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>C59976F1-74F7-876B-8A0A-81ED8C034D5B</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9881313B-3805-268B-F8E5-F0B8E541A0C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="733E24B5-83FD-E301-4C47-A8CF05283FBD" name="Phone_Of_Exec">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>7C82FF4B-CE4E-821D-00D8-3EC23792319B</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4938E28D-4D6F-14B8-A2D3-E496C5FA9AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3D42F2A-E4D3-0DE4-3A0B-2080B010E3AF" name="Phone_Of_Studio">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>2631E662-063C-918A-1968-2B5B06698E21</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CEB2E4B-E314-7D49-9E57-311BED835B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

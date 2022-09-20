@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F36CA17-DB8F-8775-A28B-930AD7C81E14" name="PhoneNo">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:55:39 UTC</createdTime>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no" id="8DE6F5A6-FFF0-CB57-9A15-87A382B88DCB">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:55:57 UTC</createdTime>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<domain>73348DA4-83C0-423A-338E-384E885487B3</domain>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="5345B892-36F6-71E1-4627-77AA4AF8C624">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:56:45 UTC</createdTime>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sName" id="966E7787-877E-F4DC-098E-E6CD02AE6F5B">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:57:17 UTC</createdTime>
+<generatorID>2631E662-063C-918A-1968-2B5B06698E21</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8C0124D8-949C-6690-8752-E31B3FB6753A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="execNo" id="C2B6A29D-48E8-0761-37B6-F19CCD349664">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:02:06 UTC</createdTime>
+<generatorID>7C82FF4B-CE4E-821D-00D8-3EC23792319B</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C6329D07-135D-6414-7A44-283AA9B151BE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C59976F1-74F7-876B-8A0A-81ED8C034D5B" name="PhoneNo PK">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:56:40 UTC</createdTime>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DE6F5A6-FFF0-CB57-9A15-87A382B88DCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E45CD9FB-0ED9-6420-38D1-14C8943B9717" name="Movie">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:16:42 UTC</createdTime>
+<generatorID>0E054EFE-91CF-BB65-29EB-8D40C0772A95</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="E89C6410-52FD-3941-E8F6-E6362F5564EA">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:16:42 UTC</createdTime>
+<generatorID>870667AA-75B4-A995-FC57-8489BC4622B7</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year" id="95059A76-C130-491C-AF8E-EBF4613BB2A5">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:16:42 UTC</createdTime>
+<generatorID>B43E8BF5-17A6-B63E-1061-7A0BA7C00DDC</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="length" id="ADF5BB67-017D-5429-4149-24273EC45024">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:16:42 UTC</createdTime>
+<generatorID>7F5B067E-3D9F-B70B-3A31-0709ECCC8BD6</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DAAB3C1B-7CAA-F086-FFAD-418AA442D1AC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>300</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="inColor" id="4D7B15B1-E23C-11FB-736C-3FA4B79CC74A">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:16:42 UTC</createdTime>
+<generatorID>E46308A0-C621-70DF-CA6A-035BD15811CA</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>41E61831-8B76-B056-FF50-EDD5A563660C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studioName" id="B4D4C8AF-5597-4BAC-FE54-22E2B288ACD8">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:16:42 UTC</createdTime>
+<generatorID>478ABFA5-1F0D-3F63-8CB5-BF7FEE38374E</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1B533CD-F8A2-D7A7-F68E-9AEF58ADBD92" referredColumn="7D11AA6A-F253-A36F-8AF3-E3B363D9AB50"/>
+</associations>
+</Column>
+<Column name="producerNo" id="F0A7B115-A4CC-63F3-C335-523136E6EE6A">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>3A3FBF07-04F8-3591-8FE9-B2A83AE16CFA</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8365A427-8F4D-BC2A-7B51-70EC0FA142A9" referredColumn="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE"/>
+</associations>
+</Column>
+<Column name="SeqTitle" id="643CDDBC-846F-B477-2083-161ECCC1F38B">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>92F186F3-5357-EF0E-01BC-69FE5269699A</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84796BE8-AA6B-AB98-3779-52CD5F69463D" referredColumn="E89C6410-52FD-3941-E8F6-E6362F5564EA"/>
+</associations>
+</Column>
+<Column name="SeqYear" id="8F3DA4CC-F77E-E2BB-472A-A2CEB47E81B9">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>91314D02-73B2-0289-3DED-7E75122D18D1</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="84796BE8-AA6B-AB98-3779-52CD5F69463D" referredColumn="95059A76-C130-491C-AF8E-EBF4613BB2A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16216368-9AA4-022A-DFCF-A065339BDADE" name="Movie_PK">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:16:42 UTC</createdTime>
+<generatorID>67463833-5FA6-E29F-3498-7A43FCCDC4FB</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95059A76-C130-491C-AF8E-EBF4613BB2A5"/>
+<colUsage columnID="E89C6410-52FD-3941-E8F6-E6362F5564EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AA3CFEB-CFE9-C660-5BD5-B65275ECC826" name="Owns">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:16:42 UTC</createdTime>
+<generatorID>11A8A4D1-7C81-BCD3-F508-5968557117DF</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4D4C8AF-5597-4BAC-FE54-22E2B288ACD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="718F4544-D32F-2D2D-D15B-44DF1690432B" name="ProducedBy">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>95196E5C-5331-0FCB-6133-2FC112FED81B</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A7B115-A4CC-63F3-C335-523136E6EE6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFEE3B23-8C80-9684-C759-FF0B996F0EC2" name="Sequel_of">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:13:32 UTC</createdTime>
+<generatorID>48B79C3F-4B11-CE26-50FF-A7A4BB0AE6C0</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F3DA4CC-F77E-E2BB-472A-A2CEB47E81B9"/>
+<colUsage columnID="643CDDBC-846F-B477-2083-161ECCC1F38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
