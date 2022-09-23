@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68BCAC1A-A8AD-0637-4EB1-D64C1EADDA91" name="Studio">
-<createdBy>626-prof</createdBy>
-<createdTime>2022-09-13 05:49:37 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67ED9FC3-F27D-807A-C234-E9D5427036ED" name="studio_phones">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 05:47:27 UTC</createdTime>
 <ownerDesignName>MovieDB0</ownerDesignName>
 <engineerTo>
 <item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
@@ -15,44 +15,47 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="name" id="8C0124D8-949C-6690-8752-E31B3FB6753A">
-<createdBy>626-prof</createdBy>
-<createdTime>2022-09-13 05:52:04 UTC</createdTime>
+<Attribute name="name" id="2BB582DF-4C59-FF18-DAA7-47158EF13B65">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 05:48:29 UTC</createdTime>
+<generatorID>7A37C96A-4D86-B769-F333-C2A9B8EF5B73</generatorID>
 <ownerDesignName>MovieDB0</ownerDesignName>
 <engineerTo>
 <item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
 </engineerTo>
+<referedAttribute>8C0124D8-949C-6690-8752-E31B3FB6753A</referedAttribute>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="address" id="0942747F-C4C5-151E-8716-0936365E23D0">
-<createdBy>626-prof</createdBy>
-<createdTime>2022-09-13 05:52:11 UTC</createdTime>
+<Attribute name="no" id="CBAD6263-E765-5712-AC70-B2B5E3275EA9">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 05:55:51 UTC</createdTime>
+<generatorID>8D7FABCE-3E7D-C8FD-E324-F24FFA544661</generatorID>
 <ownerDesignName>MovieDB0</ownerDesignName>
 <engineerTo>
 <item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8DE6F5A6-FFF0-CB57-9A15-87A382B88DCB</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>4B8D2C0C-B808-8B26-C729-AEBFA4068C1F</domain>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<domain>73348DA4-83C0-423A-338E-384E885487B3</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6616367A-AF9A-733E-8FE5-377D7EE883D2" name="Studio PK">
-<createdBy>626-prof</createdBy>
-<createdTime>2022-09-13 05:52:10 UTC</createdTime>
+<identifier id="018D2353-9EDA-AAAE-BCC0-3D47350E8AB3" name="studio_phones PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 05:48:29 UTC</createdTime>
 <ownerDesignName>MovieDB0</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="false"/>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8C0124D8-949C-6690-8752-E31B3FB6753A</attributeRef>
+<attributeRef>2BB582DF-4C59-FF18-DAA7-47158EF13B65</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

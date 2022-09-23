@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEFFCDBE-DD42-2D66-85D6-F39DA3F68738" name="exec_phones">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<generatorID>C4CCAB6D-BAA0-1F87-3923-5A932F68C450</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="certNo" id="AC1456D7-31CC-4340-0895-5C461AB0AB1C">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<generatorID>9F0767B4-2C6E-01C7-4263-47BF35024011</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="116D9BE0-B811-414F-ADC7-1C0DB17B1B00" referredColumn="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE"/>
+</associations>
+</Column>
+<Column name="no" id="E37EB8A4-CEA6-A4B5-C102-C86C8D4D665F">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<generatorID>9788DF1B-2B4C-C327-AEEE-8E2A6B375497</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B43E91D2-2A77-150C-4DF0-D387A6A7C9AD" referredColumn="9881313B-3805-268B-F8E5-F0B8E541A0C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D9CBE3E-4D1A-204E-1129-D7458E66045E" name="movieexec_phones_PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<generatorID>76587283-7DB8-F7D9-02E3-3997E86FF104</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC1456D7-31CC-4340-0895-5C461AB0AB1C"/>
+<colUsage columnID="E37EB8A4-CEA6-A4B5-C102-C86C8D4D665F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C6B1585-E76A-E43F-CE9F-C2C0F7A4A091" name="exec_phones__IDX">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>35528BFA-6239-D096-5D8D-87E1F8E45505</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E37EB8A4-CEA6-A4B5-C102-C86C8D4D665F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3856CCD7-CC23-16A1-47A2-DE1CB695AB95" name="execphone">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<generatorID>35528BFA-6239-D096-5D8D-87E1F8E45505</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E37EB8A4-CEA6-A4B5-C102-C86C8D4D665F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC53D0CF-A856-8604-89F6-432307B298EF" name="phone_of_movieexec">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<generatorID>ED914E1A-F386-9E27-3870-1292CDA53079</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC1456D7-31CC-4340-0895-5C461AB0AB1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

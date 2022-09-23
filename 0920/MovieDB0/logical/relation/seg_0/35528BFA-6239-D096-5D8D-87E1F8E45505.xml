@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="execphone" directorySegmentName="seg_0" id="35528BFA-6239-D096-5D8D-87E1F8E45505">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:01:35 UTC</createdTime>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<sourcePk>76587283-7DB8-F7D9-02E3-3997E86FF104</sourcePk>
+<targetPk>C59976F1-74F7-876B-8A0A-81ED8C034D5B</targetPk>
+<dominantRole>1F36CA17-DB8F-8775-A28B-930AD7C81E14</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4CCAB6D-BAA0-1F87-3923-5A932F68C450</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1F36CA17-DB8F-8775-A28B-930AD7C81E14</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

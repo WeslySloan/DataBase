@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="number" id="9881313B-3805-268B-F8E5-F0B8E541A0C1">
+<Column name="no" id="9881313B-3805-268B-F8E5-F0B8E541A0C1">
 <createdBy>626-prof</createdBy>
 <createdTime>2022-09-13 07:13:32 UTC</createdTime>
 <generatorID>8DE6F5A6-FFF0-CB57-9A15-87A382B88DCB</generatorID>
@@ -17,9 +17,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<checkConstraint>
-<implementationDef dbType="Oracle Database 12cR2" definition="%COLUMN% like &apos;010-____-____&apos;"/>
-</checkConstraint>
 <ownDataTypeParameters>13,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -66,6 +63,30 @@
 <associations>
 <colAssociation fkAssociation="6657AE37-4F2F-FE67-011F-3B022BFEC0AC" referredColumn="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE"/>
 </associations>
+</Column>
+<Column name="plan" id="4A4A7253-1711-5319-7108-C093E5F6CBCE">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<generatorID>205A72B6-F851-21CB-6075-0903494AFC29</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provider" id="CFBBE3FA-63A1-F307-5261-75410D69B1F9">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-20 06:42:04 UTC</createdTime>
+<generatorID>733EDAD3-C806-53C6-F60F-170879AC6A30</generatorID>
+<ownerDesignName>MovieDB0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
