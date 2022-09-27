@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="a_no" id="F877B918-729C-5BEA-A73E-29F66ABDC828">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 05:25:47 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="city" id="CA5AD42D-5559-146D-257F-E237049F8B8A">
 <createdBy>김현수</createdBy>
 <createdTime>2022-09-27 05:20:13 UTC</createdTime>
@@ -89,10 +99,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7D13DBFA-2348-6A92-942A-0ABC84CA824C</attributeRef>
-<attributeRef>CA5AD42D-5559-146D-257F-E237049F8B8A</attributeRef>
-<attributeRef>4FEA531C-3538-E157-3905-3265DD2CBBD2</attributeRef>
-<attributeRef>567229D0-64A5-F2E3-433B-DC51278DC884</attributeRef>
+<attributeRef>F877B918-729C-5BEA-A73E-29F66ABDC828</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
