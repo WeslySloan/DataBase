@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F17FD97-7D96-7F7D-9ABF-A9145E1EC138" name="Studio_Phone">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>5A6788FE-9D3A-284F-3AD8-B19B5F09B46B</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="studioName" id="7E556650-BE75-7359-E060-0607F2EA38EC">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>06F0B00A-8B1A-D0B4-095E-0FB552407B13</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="049820D9-B4DB-F3AE-4004-BEB969E93692" referredColumn="7D11AA6A-F253-A36F-8AF3-E3B363D9AB50"/>
+</associations>
+</Column>
+<Column name="phoneNo" id="1B9748CB-CB8D-11B5-1455-C07E1B98D3B9">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>525F530D-AF15-6A0D-8FD6-A7B6C60B7F81</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD944539-9F5C-54A8-5D2F-07A293E678CA" referredColumn="9881313B-3805-268B-F8E5-F0B8E541A0C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDCD7AD1-BC50-B5BC-7724-AEBF732D856B" name="Studio_Phone_PK">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>5E296389-47E3-0E39-A61F-AF659AC5B527</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E556650-BE75-7359-E060-0607F2EA38EC"/>
+<colUsage columnID="1B9748CB-CB8D-11B5-1455-C07E1B98D3B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30007FB3-064E-8F4A-6DED-390B097E61FD" name="Studio_Phone__IDX">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>80C487F5-9BE8-88AC-6DC7-80C8F565BCD3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1B9748CB-CB8D-11B5-1455-C07E1B98D3B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8803267-CC1B-6C88-6632-CAD5449154FA" name="phone_of_studiov2">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>4DA306FF-53D1-0560-62BC-1A5293BCCB9D</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E556650-BE75-7359-E060-0607F2EA38EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DA77AB0-02AC-C9FD-DCC9-F5E3F81D0D72" name="to_studio_phone">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>80C487F5-9BE8-88AC-6DC7-80C8F565BCD3</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B9748CB-CB8D-11B5-1455-C07E1B98D3B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

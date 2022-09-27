@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E054EFE-91CF-BB65-29EB-8D40C0772A95" name="Movie">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 05:43:27 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="870667AA-75B4-A995-FC57-8489BC4622B7">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 05:44:18 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="B43E8BF5-17A6-B63E-1061-7A0BA7C00DDC">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 05:45:10 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="length" id="7F5B067E-3D9F-B70B-3A31-0709ECCC8BD6">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 05:46:05 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DAAB3C1B-7CAA-F086-FFAD-418AA442D1AC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>300</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="inColor" id="E46308A0-C621-70DF-CA6A-035BD15811CA">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 05:46:14 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>41E61831-8B76-B056-FF50-EDD5A563660C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="studioName" id="478ABFA5-1F0D-3F63-8CB5-BF7FEE38374E">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 05:58:20 UTC</createdTime>
+<generatorID>11A8A4D1-7C81-BCD3-F508-5968557117DF</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<referedAttribute>8C0124D8-949C-6690-8752-E31B3FB6753A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="producerNo" id="3A3FBF07-04F8-3591-8FE9-B2A83AE16CFA">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:47:20 UTC</createdTime>
+<generatorID>95196E5C-5331-0FCB-6133-2FC112FED81B</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<referedAttribute>C6329D07-135D-6414-7A44-283AA9B151BE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SeqTitle" id="92F186F3-5357-EF0E-01BC-69FE5269699A">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:10:00 UTC</createdTime>
+<generatorID>48B79C3F-4B11-CE26-50FF-A7A4BB0AE6C0</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>870667AA-75B4-A995-FC57-8489BC4622B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SeqYear" id="91314D02-73B2-0289-3DED-7E75122D18D1">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 07:10:00 UTC</createdTime>
+<generatorID>48B79C3F-4B11-CE26-50FF-A7A4BB0AE6C0</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B43E8BF5-17A6-B63E-1061-7A0BA7C00DDC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67463833-5FA6-E29F-3498-7A43FCCDC4FB" name="Movie PK">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 05:45:43 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B43E8BF5-17A6-B63E-1061-7A0BA7C00DDC</attributeRef>
+<attributeRef>870667AA-75B4-A995-FC57-8489BC4622B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="phone_of_exec" directorySegmentName="seg_0" id="6FD54A8C-A47C-084C-A3B5-16FC34B6EA94">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:00:37 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<sourcePk>3C4E67D4-9A96-7008-E97C-91093996DBAB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA6BDD4A-3D21-824E-A63C-4CD33D5863C7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EAE21D05-C623-3A59-CBC3-E944D55652BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

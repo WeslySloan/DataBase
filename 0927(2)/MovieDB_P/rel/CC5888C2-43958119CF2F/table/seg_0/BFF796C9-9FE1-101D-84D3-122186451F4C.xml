@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFF796C9-9FE1-101D-84D3-122186451F4C" name="exec_phone">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>EAE21D05-C623-3A59-CBC3-E944D55652BD</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="execNo" id="23637E53-1197-54C9-0E95-EF902C0714D1">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>CEEAE0CA-5514-C8AA-8920-32DE43A21AD1</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DDA0269-DC8D-0A53-9C2E-CA3F60AF63A2" referredColumn="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE"/>
+</associations>
+</Column>
+<Column name="phoneNo" id="793286E2-6469-6F22-24A0-8EEB586C21B3">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>AF379F13-D94E-64AF-1C3B-C46D8472A4D0</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64402F25-A942-6923-B0EF-ADC204EDDFB0" referredColumn="9881313B-3805-268B-F8E5-F0B8E541A0C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73225781-9E9F-0E43-8C32-7F6F6403331A" name="exec_phone_PK">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>65C94F39-0B27-2C86-CFE3-6FE3A3196292</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23637E53-1197-54C9-0E95-EF902C0714D1"/>
+<colUsage columnID="793286E2-6469-6F22-24A0-8EEB586C21B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E051D287-B88E-F84B-65E4-DD3B2C933071" name="exec_phone__IDX">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DC147777-E8B7-7D04-3DE8-5279D92CBDD0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="793286E2-6469-6F22-24A0-8EEB586C21B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC098130-DA2F-E260-F5DE-BD82FE53E8FB" name="phone_of_execv2">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>6FD54A8C-A47C-084C-A3B5-16FC34B6EA94</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23637E53-1197-54C9-0E95-EF902C0714D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF40199F-CD22-0D8F-5268-80815DECD1FC" name="to_exec_phone">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-19 17:02:08 UTC</createdTime>
+<generatorID>DC147777-E8B7-7D04-3DE8-5279D92CBDD0</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="793286E2-6469-6F22-24A0-8EEB586C21B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
