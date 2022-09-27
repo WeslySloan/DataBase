@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB1E87DD-CAC5-0EA6-B8A3-F09B7B232225" name="Crews">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 05:41:50 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no" id="91C7428E-35EA-5439-28F4-E7E6AB75BEEB">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 05:41:56 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="CADFD458-30C0-FB05-78EA-182C9CBC8CA5">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 05:46:08 UTC</createdTime>
+<generatorID>6E666EE0-6AB4-980E-46B5-FED0EF1D44FC</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<referedAttribute>8C0124D8-949C-6690-8752-E31B3FB6753A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="404A751E-ACFD-5939-3A6D-CC3C4AE84DEA" name="Crews PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 05:44:21 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91C7428E-35EA-5439-28F4-E7E6AB75BEEB</attributeRef>
+<attributeRef>CADFD458-30C0-FB05-78EA-182C9CBC8CA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -65,6 +65,21 @@
 <domain>2F08F167-330B-486A-141D-63038F74EE7D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="name1" id="6F9351A5-016C-BA11-0C5C-B9F323AE1C66">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 05:46:57 UTC</createdTime>
+<generatorID>4A07A67E-DD60-A98D-D3F3-C42D5399CFDE</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8C0124D8-949C-6690-8752-E31B3FB6753A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3C4E67D4-9A96-7008-E97C-91093996DBAB" name="MovieExec PK">

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C8EF77E-21B0-0A2C-86CE-46A9BA951B0A" name="Cartoons">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 05:57:57 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="year" id="E33112CE-DA03-B906-811E-20189E055B2A">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:12:22 UTC</createdTime>
+<generatorID>9D127752-B597-AEAA-D5DD-D9E7845D798A</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<referedAttribute>B43E8BF5-17A6-B63E-1061-7A0BA7C00DDC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="title" id="92E0EC3F-C350-AE24-64CA-D30394E9159F">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:12:22 UTC</createdTime>
+<generatorID>9D127752-B597-AEAA-D5DD-D9E7845D798A</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<referedAttribute>870667AA-75B4-A995-FC57-8489BC4622B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5E61790-A8A6-BA0D-365D-248795A7E94A" name="Cartoons PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:12:37 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E33112CE-DA03-B906-811E-20189E055B2A</attributeRef>
+<attributeRef>92E0EC3F-C350-AE24-64CA-D30394E9159F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
