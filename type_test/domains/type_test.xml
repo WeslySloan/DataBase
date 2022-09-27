@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="type_test">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="name" id="3C4CBBA2-DD51-7549-2FF6-4C0072BE60C0">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:38:43 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>type_test</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

@@ -131,6 +131,68 @@
 <colAssociation fkAssociation="84796BE8-AA6B-AB98-3779-52CD5F69463D" referredColumn="95059A76-C130-491C-AF8E-EBF4613BB2A5"/>
 </associations>
 </Column>
+<Column name="year1" id="007B2CC6-1453-436B-B274-72D1CAF80AB7">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>1D900C34-D19B-9610-260C-87B8904B8113</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="title1" id="1D3B72A6-4977-5504-E7E3-9F081C82C798">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>B44474B2-BA7F-31D4-C6E9-D987359E10CC</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year11" id="CA0F5428-284A-8AC2-5AD8-8AA4A8EC11FD">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>3F3B4E94-E009-576E-FD5D-241E30A1562C</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="title11" id="4EFF1EED-118A-5762-12F2-C5899B5545F1">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>BF35D198-8E4F-D5BD-33F2-1FA33307EFAE</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="16216368-9AA4-022A-DFCF-A065339BDADE" name="Movie_PK">
@@ -144,6 +206,30 @@
 <indexColumnUsage>
 <colUsage columnID="95059A76-C130-491C-AF8E-EBF4613BB2A5"/>
 <colUsage columnID="E89C6410-52FD-3941-E8F6-E6362F5564EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C27CCB3-54AD-A0E6-B987-3593778F8B16" name="Movie__IDX">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DCB895DB-00FC-AAB4-9DD1-09A67DB4B6BB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CA0F5428-284A-8AC2-5AD8-8AA4A8EC11FD"/>
+<colUsage columnID="4EFF1EED-118A-5762-12F2-C5899B5545F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="344CB561-A234-75AE-796A-7BB11B197593" name="Movie__IDXv1">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9D127752-B597-AEAA-D5DD-D9E7845D798A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="007B2CC6-1453-436B-B274-72D1CAF80AB7"/>
+<colUsage columnID="1D3B72A6-4977-5504-E7E3-9F081C82C798"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="2AA3CFEB-CFE9-C660-5BD5-B65275ECC826" name="Owns">

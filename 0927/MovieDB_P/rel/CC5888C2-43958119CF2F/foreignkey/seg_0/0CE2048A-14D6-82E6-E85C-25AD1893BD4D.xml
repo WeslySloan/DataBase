@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="049820D9-B4DB-F3AE-4004-BEB969E93692" containerWithKeyObject="2F17FD97-7D96-7F7D-9ABF-A9145E1EC138" localFKIndex="A8803267-CC1B-6C88-6632-CAD5449154FA" name="phone_of_studio">
-<createdBy>shhong</createdBy>
-<createdTime>2022-09-19 17:02:08 UTC</createdTime>
-<generatorID>4DA306FF-53D1-0560-62BC-1A5293BCCB9D</generatorID>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CE2048A-14D6-82E6-E85C-25AD1893BD4D" containerWithKeyObject="6BC661EA-328D-23D3-EA77-216A5E846972" localFKIndex="CF5D6817-4AD0-335E-3773-CFD96F89369A" name="address_of">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>CCD6DF4F-BF0A-DE0C-49A0-0CA41F1D142A</generatorID>
 <ownerDesignName>MovieDB_P</ownerDesignName>
 <referredTableLongName>Studio</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>498370AF-1760-22E0-FF48-9526407589EF</referredTableID>
 <keyObject>48A87142-7845-E0E5-6A0F-EA25C8F680C3</keyObject>
 <referredKeyID>48A87142-7845-E0E5-6A0F-EA25C8F680C3</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>name</refColNames>
-<transferable>false</transferable>
+<transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

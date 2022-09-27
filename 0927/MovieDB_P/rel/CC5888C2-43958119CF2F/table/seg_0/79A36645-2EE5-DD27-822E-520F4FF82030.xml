@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79A36645-2EE5-DD27-822E-520F4FF82030" name="Crews">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>DB1E87DD-CAC5-0EA6-B8A3-F09B7B232225</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no" id="35912062-1E3D-8F4D-7B14-CC8A07CC9883">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>91C7428E-35EA-5439-28F4-E7E6AB75BEEB</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A4F6A5C8-03CD-00B6-7B27-679B31247B60">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>CADFD458-30C0-FB05-78EA-182C9CBC8CA5</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F82F0C7-B097-E349-82F7-C821286F8195" referredColumn="7D11AA6A-F253-A36F-8AF3-E3B363D9AB50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E35C78A2-078B-4D54-3107-AA3117360572" name="Crews_PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>404A751E-ACFD-5939-3A6D-CC3C4AE84DEA</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35912062-1E3D-8F4D-7B14-CC8A07CC9883"/>
+<colUsage columnID="A4F6A5C8-03CD-00B6-7B27-679B31247B60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA643652-C116-81D0-8EB7-263B0AE28218" name="crews_of">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>6E666EE0-6AB4-980E-46B5-FED0EF1D44FC</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4F6A5C8-03CD-00B6-7B27-679B31247B60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

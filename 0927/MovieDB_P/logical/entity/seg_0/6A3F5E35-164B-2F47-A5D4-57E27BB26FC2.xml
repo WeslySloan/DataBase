@@ -23,6 +23,8 @@
 <item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
 </engineerTo>
 <use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="city" id="CA5AD42D-5559-146D-257F-E237049F8B8A">
@@ -94,8 +96,9 @@
 <createdBy>김현수</createdBy>
 <createdTime>2022-09-27 05:20:54 UTC</createdTime>
 <ownerDesignName>MovieDB_P</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

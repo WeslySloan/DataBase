@@ -65,7 +65,7 @@
 <colUsage columnID="1B9748CB-CB8D-11B5-1455-C07E1B98D3B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A8803267-CC1B-6C88-6632-CAD5449154FA" name="phone_of_studiov2">
+<ind_PK_UK id="A8803267-CC1B-6C88-6632-CAD5449154FA" name="phone_of_studio">
 <createdBy>shhong</createdBy>
 <createdTime>2022-09-19 17:02:08 UTC</createdTime>
 <generatorID>4DA306FF-53D1-0560-62BC-1A5293BCCB9D</generatorID>

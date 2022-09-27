@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8540D599-67F9-8242-80AC-05A2256A6880" name="MurderMystery">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>280AA51B-A105-BD97-658A-6605288B15E5</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="weapon" id="7358ADA1-2079-AF55-FE80-E0E757F36654">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>2FB7F5A7-8585-889F-0A36-BE905CC7F609</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year1" id="0D111EB4-C1CA-A91E-FE42-29AE17FFB120">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>AB8B776B-5941-0835-C5F0-0A52A7CBB82D</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="title1" id="61FF4B28-6765-4273-1F8F-4B4AAFB19B10">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>5BF62950-9C62-F588-328D-1234F31986F6</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3331CF7F-F6F9-EBD3-F42F-FBB79A5457E4" name="MurderMystery_PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>7A101100-68F4-CC72-5860-AD9127F4F71B</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D111EB4-C1CA-A91E-FE42-29AE17FFB120"/>
+<colUsage columnID="61FF4B28-6765-4273-1F8F-4B4AAFB19B10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

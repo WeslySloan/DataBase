@@ -54,6 +54,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="name1" id="F5EF2836-CAB5-57AA-A917-CB0982F9B236">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>6F9351A5-016C-BA11-0C5C-B9F323AE1C66</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1D047ADE-E0AF-3A16-4223-6BE4C3EFBA3B" name="MovieExec_PK">
@@ -77,6 +90,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="60E3C7ED-CFAD-3D4B-44A7-84B63A41382F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44D3B3B3-5A05-FA68-1C22-399C93C2DDFD" name="MovieExec__IDX">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4A07A67E-DD60-A98D-D3F3-C42D5399CFDE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F5EF2836-CAB5-57AA-A917-CB0982F9B236"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

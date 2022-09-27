@@ -31,6 +31,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="certNo" id="2197025D-40AF-0838-AFF1-0266415AF612">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>28E4CFB9-E082-2ACD-9E17-B69CEC0B54E9</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="48A87142-7845-E0E5-6A0F-EA25C8F680C3" name="Studio_PK">
@@ -43,6 +56,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7D11AA6A-F253-A36F-8AF3-E3B363D9AB50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A56133C-BD2A-A8BA-339B-83F1FCAA352A" name="Studio__IDX">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4A07A67E-DD60-A98D-D3F3-C42D5399CFDE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2197025D-40AF-0838-AFF1-0266415AF612"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="973AFC77-A782-0760-008B-0206FDFE94E6" name="voice_of">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cartoons_year" id="A1204CF6-F3F2-0699-A6A8-7CC84EF368F7">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>5EC2ED37-39C9-AAF2-4C5B-EBCB85DB56AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2022</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="B65D2853-532E-7C32-CE02-412061A1EE1F" referredColumn="BBFD64D3-FFA7-597E-4E04-6C995D0E23C3"/>
+</associations>
+</Column>
+<Column name="Cartoons_title" id="7224DBCF-C5D8-E472-2845-E28DEC26D348">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93D421AA-973F-D3E6-27A2-2ED58BE31575</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B65D2853-532E-7C32-CE02-412061A1EE1F" referredColumn="1CC5FD9E-032D-FF84-1C8C-14B30F815AD3"/>
+</associations>
+</Column>
+<Column name="MovieStar_name" id="7786DC02-91AE-4A77-65BD-D5AA3B75DB6B">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2B2897F-04DE-08D7-47E0-2F4DAFCD8E7C" referredColumn="046D86A2-D9DF-FB94-5FC9-0DC8EFC8B9D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F21C8E1C-D363-5421-2646-D15ECD5B2519" name="voice_of_PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1204CF6-F3F2-0699-A6A8-7CC84EF368F7"/>
+<colUsage columnID="7224DBCF-C5D8-E472-2845-E28DEC26D348"/>
+<colUsage columnID="7786DC02-91AE-4A77-65BD-D5AA3B75DB6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44C8F183-8D27-5CB5-9CF9-880737D5D559" name="voice_of_Cartoons_FK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>A17D2BC6-F455-C5C6-5572-46F80F9FCACB</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1204CF6-F3F2-0699-A6A8-7CC84EF368F7"/>
+<colUsage columnID="7224DBCF-C5D8-E472-2845-E28DEC26D348"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37833FFD-4046-0FD2-4F71-73B1A59EABD8" name="voice_of_MovieStar_FK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>A17D2BC6-F455-C5C6-5572-46F80F9FCACB</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7786DC02-91AE-4A77-65BD-D5AA3B75DB6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

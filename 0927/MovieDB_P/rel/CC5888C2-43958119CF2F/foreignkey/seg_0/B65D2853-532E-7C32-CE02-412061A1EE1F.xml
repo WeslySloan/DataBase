@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B65D2853-532E-7C32-CE02-412061A1EE1F" containerWithKeyObject="973AFC77-A782-0760-008B-0206FDFE94E6" localFKIndex="44C8F183-8D27-5CB5-9CF9-880737D5D559" name="voice_of_Cartoons_FK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>A17D2BC6-F455-C5C6-5572-46F80F9FCACB</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<referredTableLongName>Cartoons</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>439E4235-1D1B-B83A-D1F2-B7DE4B495474</referredTableID>
+<keyObject>36B80C25-D7E0-9E49-B587-18504C3278F2</keyObject>
+<referredKeyID>36B80C25-D7E0-9E49-B587-18504C3278F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>year,title</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

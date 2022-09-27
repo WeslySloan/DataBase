@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="049820D9-B4DB-F3AE-4004-BEB969E93692" containerWithKeyObject="2F17FD97-7D96-7F7D-9ABF-A9145E1EC138" localFKIndex="A8803267-CC1B-6C88-6632-CAD5449154FA" name="phone_of_studio">
-<createdBy>shhong</createdBy>
-<createdTime>2022-09-19 17:02:08 UTC</createdTime>
-<generatorID>4DA306FF-53D1-0560-62BC-1A5293BCCB9D</generatorID>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F82F0C7-B097-E349-82F7-C821286F8195" containerWithKeyObject="79A36645-2EE5-DD27-822E-520F4FF82030" localFKIndex="EA643652-C116-81D0-8EB7-263B0AE28218" name="crews_of">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>6E666EE0-6AB4-980E-46B5-FED0EF1D44FC</generatorID>
 <ownerDesignName>MovieDB_P</ownerDesignName>
 <referredTableLongName>Studio</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -11,7 +11,7 @@
 <referredKeyID>48A87142-7845-E0E5-6A0F-EA25C8F680C3</referredKeyID>
 <mandatory>true</mandatory>
 <refColNames>name</refColNames>
-<transferable>false</transferable>
+<transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

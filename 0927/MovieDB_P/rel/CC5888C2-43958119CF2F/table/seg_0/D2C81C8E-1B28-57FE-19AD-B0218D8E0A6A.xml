@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2C81C8E-1B28-57FE-19AD-B0218D8E0A6A" name="Dependants">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>519BB132-0B14-970D-3D7F-321A65B78A43</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="E4A9D761-217A-81B7-A1D9-2B6C7CF9E0AD">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>6DEB8AC6-D4BD-0F45-9F59-F003B185BE50</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certNo" id="1A49CB72-3376-39D8-2313-988090A5669F">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>0E2CB7DB-AA83-8196-7091-C0110B6CBC72</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D810A2A1-F247-0100-A4B4-D1FC4C9B9A68" referredColumn="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A4FA63D-16F6-96A6-6C44-A09410837612" name="Depndants_PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>C791AC8A-F7AA-9BE1-DAA8-2DF1A9DC4273</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4A9D761-217A-81B7-A1D9-2B6C7CF9E0AD"/>
+<colUsage columnID="1A49CB72-3376-39D8-2313-988090A5669F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BE0BDC9-ECB8-7113-69FA-F44596DE2254" name="family_of">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 06:17:59 UTC</createdTime>
+<generatorID>A531467A-6928-9A49-4F58-BF4D3DCD337B</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A49CB72-3376-39D8-2313-988090A5669F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
