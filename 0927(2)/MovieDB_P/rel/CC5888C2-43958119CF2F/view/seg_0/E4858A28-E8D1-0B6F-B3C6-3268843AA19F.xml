@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="E4858A28-E8D1-0B6F-B3C6-3268843AA19F" name="Movie_Prod">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:09:01 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<ordsAlias>view_2</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    movie.title,
+    movie.year,
+    movieexec.name AS "제작자 이름"
+FROM
+    movie,
+    movieexec
+WHERE
+    movieexec.certno = movie.producerno]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="title" id="0E09DA64-AAEF-B34D-30DB-D62E4B704876">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:11:58 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100)</dataType>
+<headerAlias>title</headerAlias>
+<reference>false</reference>
+<referencedColumn>E89C6410-52FD-3941-E8F6-E6362F5564EA</referencedColumn>
+<table>E45CD9FB-0ED9-6420-38D1-14C8943B9717</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="year" id="496C7791-22CF-AC07-F58C-62E8941F9B81">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:11:58 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (4)</dataType>
+<headerAlias>year</headerAlias>
+<reference>false</reference>
+<referencedColumn>95059A76-C130-491C-AF8E-EBF4613BB2A5</referencedColumn>
+<table>E45CD9FB-0ED9-6420-38D1-14C8943B9717</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="제작자 이름" id="0FE0DFE4-56F3-6AA4-D4A3-07388C066DA6">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:11:58 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>제작자 이름</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>제작자 이름</headerAlias>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E45CD9FB-0ED9-6420-38D1-14C8943B9717">
+<container>true</container>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6E95A21E-4D82-75F2-98A1-B0031E8B39AE">
+<container>true</container>
+<tableName>MovieExec</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E89C6410-52FD-3941-E8F6-E6362F5564EA">
+<columnName>title</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="95059A76-C130-491C-AF8E-EBF4613BB2A5">
+<columnName>year</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="60E3C7ED-CFAD-3D4B-44A7-84B63A41382F">
+<columnName>name</columnName>
+<tableName>MovieExec</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE">
+<columnName>certNo</columnName>
+<tableName>MovieExec</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F0A7B115-A4CC-63F3-C335-523136E6EE6A">
+<columnName>producerNo</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

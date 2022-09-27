@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="281BAF9E-2DC6-BECF-E4F8-F76135C6F1AD" name="Movie_infov1">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:15:17 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<ordsAlias>view_5</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    movie.studioname,
+    COUNT(*)          AS "Movie_cnt",
+    AVG(movie_length) AS "Avg_length",
+    MIN(movie_year)   AS "First_year"
+FROM
+    movie,
+    starsin,
+    moviestar
+WHERE
+        movie.year = starsin.movieyear
+    AND moviestar.name = starsin.starname
+GROUP BY
+    movie.studioname
+HAVING ( COUNT(*) > 2
+         AND AVG(movie_length) > 100 )
+       OR ( MIN(movie_year) > 2000 )
+ORDER BY
+    "Movie_cnt",
+    "Avg_length" DESC]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="studioname" id="EB876BF5-F400-B94E-9BCF-DCB70361CB0A">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:22:57 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50)</dataType>
+<headerAlias>studioname</headerAlias>
+<reference>false</reference>
+<referencedColumn>B4D4C8AF-5597-4BAC-FE54-22E2B288ACD8</referencedColumn>
+<table>E45CD9FB-0ED9-6420-38D1-14C8943B9717</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="&quot;Movie_cnt&quot;" id="ABA35F40-79C1-783F-2C69-0AB7B80B5B5C">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:22:57 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Movie_cnt&quot;</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>&quot;Movie_cnt&quot;</headerAlias>
+<expression>COUNT(*)</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="&quot;Avg_length&quot;" id="41522F28-182C-1D7E-E542-D801D070FB67">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:22:57 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Avg_length&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;Avg_length&quot;</headerAlias>
+<expression>AVG(movie_length)</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="&quot;First_year&quot;" id="3ADE0A27-3333-B193-62FD-C9F8FD77774D">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:22:57 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;First_year&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;First_year&quot;</headerAlias>
+<expression>MIN(movie_year)</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E45CD9FB-0ED9-6420-38D1-14C8943B9717">
+<container>true</container>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D1B5D1F4-41E6-1343-FDA5-7671367F79B5">
+<container>true</container>
+<tableName>StarsIn</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C6908A91-A147-E55C-56B3-77B11673D3F1">
+<container>true</container>
+<tableName>MovieStar</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B4D4C8AF-5597-4BAC-FE54-22E2B288ACD8">
+<columnName>studioName</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="046D86A2-D9DF-FB94-5FC9-0DC8EFC8B9D4">
+<columnName>name</columnName>
+<tableName>MovieStar</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5FB0C1E2-F6E8-2D49-28F7-BAEA444BC521">
+<columnName>Movieyear</columnName>
+<tableName>StarsIn</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="95059A76-C130-491C-AF8E-EBF4613BB2A5">
+<columnName>year</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5DAED717-4591-B6D7-5044-0018F0944450">
+<columnName>Starname</columnName>
+<tableName>StarsIn</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

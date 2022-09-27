@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="A2A9EDC6-971F-F517-442D-73B06EB7891E" name="Fox_Movies">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:06:12 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<ordsAlias>view_1</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    movie.title,
+    movie.year
+FROM
+    movie
+WHERE
+    movie.studioname = 'fox']]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="title" id="F2966D1F-FC9A-8A4B-5792-A3C0CB6983EE">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:08:29 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100)</dataType>
+<headerAlias>title</headerAlias>
+<reference>false</reference>
+<referencedColumn>E89C6410-52FD-3941-E8F6-E6362F5564EA</referencedColumn>
+<table>E45CD9FB-0ED9-6420-38D1-14C8943B9717</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="year" id="4A47EF4F-960A-81E5-3EE3-45B266130ED3">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:08:29 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (4)</dataType>
+<headerAlias>year</headerAlias>
+<reference>false</reference>
+<referencedColumn>95059A76-C130-491C-AF8E-EBF4613BB2A5</referencedColumn>
+<table>E45CD9FB-0ED9-6420-38D1-14C8943B9717</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E45CD9FB-0ED9-6420-38D1-14C8943B9717">
+<container>true</container>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E89C6410-52FD-3941-E8F6-E6362F5564EA">
+<columnName>title</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="95059A76-C130-491C-AF8E-EBF4613BB2A5">
+<columnName>year</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B4D4C8AF-5597-4BAC-FE54-22E2B288ACD8">
+<columnName>studioName</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

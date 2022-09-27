@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="303F5E81-D329-F66F-1F63-FF2F4F775A5A" name="Movie_info">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:12:51 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<ordsAlias>view_4</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    movie.title,
+    studio.name,
+    studio.address,
+    phoneno.no,
+    phoneno.type,
+    movie.year
+FROM
+    movie,
+    studio,
+    studio_phone,
+    phoneno
+WHERE
+        studio.name = movie.studioname
+    AND studio.name = studio_phone.studioname
+    AND phoneno.no = studio_phone.phoneno]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="title" id="265C1415-F599-624C-0ED4-5B758FAAC618">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:15:14 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100)</dataType>
+<headerAlias>title</headerAlias>
+<reference>false</reference>
+<referencedColumn>E89C6410-52FD-3941-E8F6-E6362F5564EA</referencedColumn>
+<table>E45CD9FB-0ED9-6420-38D1-14C8943B9717</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="name" id="EF86630C-2350-59F1-1105-675D4ABB4F52">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:15:14 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50)</dataType>
+<headerAlias>name</headerAlias>
+<reference>false</reference>
+<referencedColumn>7D11AA6A-F253-A36F-8AF3-E3B363D9AB50</referencedColumn>
+<table>498370AF-1760-22E0-FF48-9526407589EF</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="address" id="BCB8AC6F-90B9-67E8-172B-F97C26786E39">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:15:14 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (200)</dataType>
+<headerAlias>address</headerAlias>
+<reference>false</reference>
+<referencedColumn>B5C00A57-CAF0-BAC5-D885-006F465505C3</referencedColumn>
+<table>498370AF-1760-22E0-FF48-9526407589EF</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="no" id="CBA52B16-7EF4-C792-908C-E81F858960F6">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:15:14 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR (13)</dataType>
+<headerAlias>no</headerAlias>
+<reference>false</reference>
+<referencedColumn>9881313B-3805-268B-F8E5-F0B8E541A0C1</referencedColumn>
+<table>89F9EB45-2681-32FF-19F4-70D3E26D87CC</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="type" id="52A426F5-6B62-DA91-91E2-8F026B80F005">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:15:14 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50)</dataType>
+<headerAlias>type</headerAlias>
+<reference>false</reference>
+<referencedColumn>88B26F3E-218B-3D8D-2B11-87F9456CC940</referencedColumn>
+<table>89F9EB45-2681-32FF-19F4-70D3E26D87CC</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="year" id="175ED5B1-C345-5B7D-0692-D73E8B34EF30">
+<createdBy>김현수</createdBy>
+<createdTime>2022-09-27 07:15:14 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (4)</dataType>
+<headerAlias>year</headerAlias>
+<reference>false</reference>
+<referencedColumn>95059A76-C130-491C-AF8E-EBF4613BB2A5</referencedColumn>
+<table>E45CD9FB-0ED9-6420-38D1-14C8943B9717</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E45CD9FB-0ED9-6420-38D1-14C8943B9717">
+<container>true</container>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="498370AF-1760-22E0-FF48-9526407589EF">
+<container>true</container>
+<tableName>Studio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2F17FD97-7D96-7F7D-9ABF-A9145E1EC138">
+<container>true</container>
+<tableName>Studio_Phone</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="89F9EB45-2681-32FF-19F4-70D3E26D87CC">
+<container>true</container>
+<tableName>PhoneNo</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E89C6410-52FD-3941-E8F6-E6362F5564EA">
+<columnName>title</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7D11AA6A-F253-A36F-8AF3-E3B363D9AB50">
+<columnName>name</columnName>
+<tableName>Studio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B5C00A57-CAF0-BAC5-D885-006F465505C3">
+<columnName>address</columnName>
+<tableName>Studio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9881313B-3805-268B-F8E5-F0B8E541A0C1">
+<columnName>no</columnName>
+<tableName>PhoneNo</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="88B26F3E-218B-3D8D-2B11-87F9456CC940">
+<columnName>type</columnName>
+<tableName>PhoneNo</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="95059A76-C130-491C-AF8E-EBF4613BB2A5">
+<columnName>year</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7E556650-BE75-7359-E060-0607F2EA38EC">
+<columnName>studioName</columnName>
+<tableName>Studio_Phone</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1B9748CB-CB8D-11B5-1455-C07E1B98D3B9">
+<columnName>phoneNo</columnName>
+<tableName>Studio_Phone</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B4D4C8AF-5597-4BAC-FE54-22E2B288ACD8">
+<columnName>studioName</columnName>
+<tableName>Movie</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>
