@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D554A48B-26F7-13A1-9934-418029C11470" name="employee">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:21:16 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="employeeNo" id="FC10FAA9-46F2-CDB5-806C-8AEA015787BE">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:22:01 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="8E060B3B-74E0-C28E-DF94-DF43C06F7A48">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:22:27 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FC82DD5D-8F27-5B0E-3019-413DAFF52422</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="291CBDF4-BE15-0B7D-954F-01AF3B35C491">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:22:40 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phoneNo" id="884A87B3-9EA0-FDB8-0368-83977422B1E3">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:22:50 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>73348DA4-83C0-423A-338E-384E885487B3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adress" id="99EC0548-7BCC-5CEE-FE65-69A032158906">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:23:01 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4B8D2C0C-B808-8B26-C729-AEBFA4068C1F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deparrtment" id="45186288-4783-4937-9B0A-E0B399D89656">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:23:33 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="522A4567-9025-6614-7CB6-7CD0FEA3DAAF" name="employee PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:24:00 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45186288-4783-4937-9B0A-E0B399D89656</attributeRef>
+<attributeRef>FC10FAA9-46F2-CDB5-806C-8AEA015787BE</attributeRef>
+<attributeRef>8E060B3B-74E0-C28E-DF94-DF43C06F7A48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

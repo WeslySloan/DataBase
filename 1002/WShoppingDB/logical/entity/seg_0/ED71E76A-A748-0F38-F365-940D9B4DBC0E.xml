@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED71E76A-A748-0F38-F365-940D9B4DBC0E" name="Product">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 14:57:03 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No" id="07E7206D-F164-7D19-37BB-AD70A3B735A1">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 14:58:30 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="040EDDFA-B45E-4F81-989B-F78E79EBA77F">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 14:58:44 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="3BE893EC-40B3-035F-32AD-092D53FDEA47">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 14:59:00 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="66FEDCB4-A3FD-A8AF-7AAF-DBB4C6282064">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 14:59:29 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maker" id="7B148B59-EE8A-D296-CAE6-0BAD1F2F9842">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:00:01 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderdate" id="9FA3BC76-9704-9BA0-468D-2815E856141F">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:32:24 UTC</createdTime>
+<generatorID>F45A2100-2CF0-C9EF-79B8-FB1F7BF253A3</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<referedAttribute>E863A169-E288-8730-382C-AC36B35F6303</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C4E93B63-87C9-8303-263C-55E6C243D040</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shippingadress" id="E221C575-A83A-B1A8-6F83-B53C5BBA7E4C">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:32:24 UTC</createdTime>
+<generatorID>F45A2100-2CF0-C9EF-79B8-FB1F7BF253A3</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<referedAttribute>9CEAE9ED-9399-2C3F-253B-84876EE5DF41</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4B8D2C0C-B808-8B26-C729-AEBFA4068C1F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product" id="20B13009-A3E2-955B-D5D5-AC9E6BFFADC4">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:32:24 UTC</createdTime>
+<generatorID>F45A2100-2CF0-C9EF-79B8-FB1F7BF253A3</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<referedAttribute>C351C368-AF54-D263-8733-574B26B10FC4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDEF456F-E755-5595-11D6-F098B37C8325" name="Product PK">
+<createdBy>김현수</createdBy>
+<createdTime>2022-10-02 15:03:35 UTC</createdTime>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<engineerTo>
+<item key="CC5888C2-4F4A-81B0-E696-43958119CF2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07E7206D-F164-7D19-37BB-AD70A3B735A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

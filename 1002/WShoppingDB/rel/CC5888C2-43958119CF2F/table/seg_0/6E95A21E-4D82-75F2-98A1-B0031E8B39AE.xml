@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E95A21E-4D82-75F2-98A1-B0031E8B39AE" name="MovieExec">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>FA6BDD4A-3D21-824E-A63C-4CD33D5863C7</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="certNo" id="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>C6329D07-135D-6414-7A44-283AA9B151BE</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77581AA4-0A59-9988-95CD-C784F0689A0C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="60E3C7ED-CFAD-3D4B-44A7-84B63A41382F">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>AFF4B70B-66BF-C624-257F-6E0D235D9421</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D19F24A-835C-E21F-413F-D042EC9C1B7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="5B06DC4A-9EE4-B0E1-B3C0-319E850A8EB7">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>8D9DF6C8-6EA6-5F31-7E63-9CAADEF779C6</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4B8D2C0C-B808-8B26-C729-AEBFA4068C1F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="netWorth" id="E78E5AE2-EA18-DFDC-DAF3-BC59B4318D2C">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>ABFBB1C6-24CE-2E4E-B2F5-76E7BF51A1B1</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F08F167-330B-486A-141D-63038F74EE7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D047ADE-E0AF-3A16-4223-6BE4C3EFBA3B" name="MovieExec_PK">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>3C4E67D4-9A96-7008-E97C-91093996DBAB</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCAE3EFB-BBEC-EEFA-6968-4F08B45366DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45D4BB41-B733-4289-A73D-7D9A064009EA" name="Unique_name">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-13 06:49:53 UTC</createdTime>
+<generatorID>5258E2E8-7FDF-F41F-82E7-312D6144E75A</generatorID>
+<ownerDesignName>MovieDB_P</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60E3C7ED-CFAD-3D4B-44A7-84B63A41382F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
