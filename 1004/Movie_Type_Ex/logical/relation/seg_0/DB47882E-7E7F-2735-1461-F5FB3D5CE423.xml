@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StarsIn" directorySegmentName="seg_0" id="DB47882E-7E7F-2735-1461-F5FB3D5CE423">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:55:10 UTC</createdTime>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<engineerTo>
+<item key="FA6C2C1D-1BCD-9604-81DB-0A14CB4EFB20" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>551998E2-9917-4095-CA44-760982778E52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09EE0467-89A1-2E91-0501-826D7D774C71</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

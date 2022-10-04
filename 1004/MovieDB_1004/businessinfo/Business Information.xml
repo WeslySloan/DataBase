@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="7AB95EBA-759F-1A67-2242-DF10DE6D4AEA">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 14:05:58 UTC</createdTime>
+<ownerDesignName>2019_MovieDB1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

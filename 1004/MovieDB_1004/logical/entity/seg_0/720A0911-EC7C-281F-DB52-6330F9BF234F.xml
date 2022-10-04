@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="720A0911-EC7C-281F-DB52-6330F9BF234F" name="MovieExec">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:23:05 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="certNo" id="152019EC-A389-3119-D7BB-6078B63A3D9F">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:23:12 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<domain>19A8BDFF-B787-9424-54B6-8B0FFC630767</domain>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="90421888-77C0-A1D8-D406-7ACC6C5CB6F5">
+<createdBy>shhong</createdBy>
+<createdTime>2022-10-03 16:54:51 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>728C829B-EF49-EDF4-929D-F579849A3717</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="E84BE397-4556-D035-3AC1-CD1673F9BB2F">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:24:02 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AC5F60F1-8D78-F52F-1AD5-2494A7433B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="netWorth" id="262B6884-0CE9-9403-4EAC-2F9B948C208C">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:24:10 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>232B31CA-1A2C-EF3B-9781-4911E81D6D79</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthdate" id="D754A5D2-9C16-00F7-EFAA-07B1EA5C4919">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 16:16:41 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F27B2A6C-9363-9286-C53C-BBC8257DB9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D4E36FB-6607-4D4A-94E4-21BC11F4E03F" name="MovieExec PK">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:24:00 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>152019EC-A389-3119-D7BB-6078B63A3D9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

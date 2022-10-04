@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="star_info" directorySegmentName="seg_0" id="283D29E3-2A40-B831-2569-18132C3847E5">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:41:55 UTC</createdTime>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<inheritanceRelation>7D42901B-DF74-6439-E049-BA5CFB30E6F1</inheritanceRelation>
+<instantiable>true</instantiable>
+<parentTypeID>4A498DD7-4BA4-F4A0-FB98-A24DF47C41DC</parentTypeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="gender" id="37C08143-FD55-D283-76EF-84ACC7E6E17A">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:42:11 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>6</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="family" id="1E268571-BEC4-9386-67F0-773DC8C0FA6E">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:46:23 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<referencerelation>78F41E1C-4D50-8BAA-7FA6-36BDA35DA14A</referencerelation>
+<scale>0</scale>
+<type>44E9CF0E-878C-CC92-858B-3D28A01AE2D9</type>
+<referenceID>78F41E1C-4D50-8BAA-7FA6-36BDA35DA14A</referenceID>
+</Attribute>
+<Attribute name="no" id="2C6C90E9-272D-74B3-403D-02E0C08AB20E">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:43:39 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
+</StructuredType>

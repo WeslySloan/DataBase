@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FB4E32C-6C06-48D4-CDD9-A9DB07E563B5" name="MovieExec">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>30816DFA-A6EC-07BB-96DA-889CE227D29B</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="job" id="944A0D8B-C5EF-1A69-98CA-3F52FC8F020E">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>CECACF97-C22E-DC36-9D4B-33A17240B652</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="info" id="CCBF3C33-0F6B-00D4-2F92-FF15F0A49BBF">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>541FE7AB-50BB-AF66-1253-1536C787A455</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>B1EEBAE6-712E-4D5B-0876-CE900EEA98EB</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="info.netWorth" id="7513E149-7A12-F0D3-E1E3-60E550424083">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>6DD2B396-13C5-E70E-CF0B-63E0FA0C4F4F</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>CCBF3C33-0F6B-00D4-2F92-FF15F0A49BBF</parentObject>
+<structAttributeID>A1460550-F472-C2A9-E820-EC9B2F2A46B7</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,14,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.role" id="31D0C548-82DF-91E4-2630-7CD524EFCA1E">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>DDC34FCE-8D93-E0CE-E825-80B2FC21B607</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>CCBF3C33-0F6B-00D4-2F92-FF15F0A49BBF</parentObject>
+<structAttributeID>9921A330-B190-C4D7-D720-CC7EFEFC70E4</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.no" id="7612D219-74E8-333B-3E78-C26E2C39BAA1">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>ADA5CD10-B51F-4416-4D83-E340108C35C8</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<parentObject>CCBF3C33-0F6B-00D4-2F92-FF15F0A49BBF</parentObject>
+<structAttributeID>34435D68-180C-83B8-0690-9827C649605E</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.family" id="4BCAE718-0AD7-CFBA-8B46-CBC31ABAAE22">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>88339186-D92A-5B64-666B-3CF91D1DA251</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>CCBF3C33-0F6B-00D4-2F92-FF15F0A49BBF</parentObject>
+<structAttributeID>7A7144A4-989B-1E17-340C-658D27E2DEF8</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>44E9CF0E-878C-CC92-858B-3D28A01AE2D9</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.family.spouseName" id="72C5C416-649C-F108-139C-6BD0F66457B7">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>E4A65F12-8D4A-A2ED-EDC2-AEA9DA9BEDFF</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>4BCAE718-0AD7-CFBA-8B46-CBC31ABAAE22</parentObject>
+<structAttributeID>C3287927-74A6-F1E4-6750-94AAD815B285</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.family.no_of_children" id="B8EB99C3-D9EF-9C7E-5AA5-5F16AA136D62">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>B156D89A-CC36-C14D-A0FC-FD994604C792</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>4BCAE718-0AD7-CFBA-8B46-CBC31ABAAE22</parentObject>
+<structAttributeID>969BF692-4DA5-0BC9-6EAC-9DE2D8D1B778</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C3A3854-8697-55B8-E644-E3FC41C74561" name="exec_p_key">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>4EACFF6E-88C1-9517-76ED-2C5590C80A4E</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7612D219-74E8-333B-3E78-C26E2C39BAA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

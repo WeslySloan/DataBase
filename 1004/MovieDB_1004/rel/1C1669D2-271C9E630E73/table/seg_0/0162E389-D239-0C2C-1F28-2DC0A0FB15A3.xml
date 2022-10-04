@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0162E389-D239-0C2C-1F28-2DC0A0FB15A3" name="StarsIn">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-17 13:56:05 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Movietitle" id="C3261A68-B8B6-D180-FCD3-2A3D3330090C">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-17 13:56:05 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<domain>728C829B-EF49-EDF4-929D-F579849A3717</domain>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70BBC835-8783-CD1D-33F8-CA16AD2D3896" referredColumn="3787D699-4B05-47E9-348B-48DDDD924A7F"/>
+</associations>
+</Column>
+<Column name="Movieyear" id="C7F3E597-1641-1DD9-AADA-59EB7AF8A8B7">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-17 13:56:05 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>06B5039B-3EC0-AE33-8445-4E83E043E0F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1900</beginValue>
+<endValue>2020</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="70BBC835-8783-CD1D-33F8-CA16AD2D3896" referredColumn="FD72FF59-DC23-7021-5366-424D9A77A807"/>
+</associations>
+</Column>
+<Column name="Starname" id="3712A523-6FA0-2190-283A-6545205B658F">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-17 13:56:05 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>728C829B-EF49-EDF4-929D-F579849A3717</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B036DE0C-2541-6513-D6E2-89029194238E" referredColumn="D15696CB-9A7E-0EE2-EA11-40EFEECE54A0"/>
+</associations>
+</Column>
+<Column name="gurantee" id="61405C5C-A93A-7FDE-DE57-C5A5121B4C29">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-17 13:56:05 UTC</createdTime>
+<generatorID>3FD3C838-E71E-5527-FDB8-9E496EABADEB</generatorID>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCFE7300-8157-6C8C-8FB6-467FBE4B6900" name="StarsIn_PK">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-17 13:56:05 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3261A68-B8B6-D180-FCD3-2A3D3330090C"/>
+<colUsage columnID="C7F3E597-1641-1DD9-AADA-59EB7AF8A8B7"/>
+<colUsage columnID="3712A523-6FA0-2190-283A-6545205B658F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EF05F92-DC28-2B61-6AAF-D23345D178C9" name="StarsIn_Movie_FK">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-17 13:56:05 UTC</createdTime>
+<generatorID>36C904EE-83D8-45AB-0BCD-D6E7B8E792A5</generatorID>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3261A68-B8B6-D180-FCD3-2A3D3330090C"/>
+<colUsage columnID="C7F3E597-1641-1DD9-AADA-59EB7AF8A8B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F55EC52E-2289-9C06-D24C-E76300D0CBD8" name="StarsIn_MovieStar_FK">
+<createdBy>shhon</createdBy>
+<createdTime>2020-09-17 13:56:05 UTC</createdTime>
+<generatorID>36C904EE-83D8-45AB-0BCD-D6E7B8E792A5</generatorID>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3712A523-6FA0-2190-283A-6545205B658F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

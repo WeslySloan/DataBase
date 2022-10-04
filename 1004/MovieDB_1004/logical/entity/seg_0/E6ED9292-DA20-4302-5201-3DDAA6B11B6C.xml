@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6ED9292-DA20-4302-5201-3DDAA6B11B6C" name="Studio">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:22:30 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="6416BD75-EF15-92CF-7597-0A7B502796AB">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:22:37 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>728C829B-EF49-EDF4-929D-F579849A3717</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="EAA27D1C-08F1-DDE7-ECBD-A693CD4C6EE9">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:22:46 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AC5F60F1-8D78-F52F-1AD5-2494A7433B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presNo" id="5596B27E-0567-05A6-29A3-2B97FDEA40D8">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 16:12:51 UTC</createdTime>
+<generatorID>BE38BB66-5652-3993-6848-7C4682A1637A</generatorID>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>152019EC-A389-3119-D7BB-6078B63A3D9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<domain>19A8BDFF-B787-9424-54B6-8B0FFC630767</domain>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="073BFC37-4106-569A-508A-DE6D042180E1" name="Studio PK">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 15:22:44 UTC</createdTime>
+<ownerDesignName>MovieDB_1004</ownerDesignName>
+<engineerTo>
+<item key="1C1669D2-ACEB-F283-E918-271C9E630E73" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6416BD75-EF15-92CF-7597-0A7B502796AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

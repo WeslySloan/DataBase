@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="1C1669D2-ACEB-F283-E918-271C9E630E73" mainViewID="3E5337EB-621F-E934-31AA-8F20C1A1B785">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 14:05:59 UTC</createdTime>
+<ownerDesignName>2019_MovieDB1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+</relationalModel>

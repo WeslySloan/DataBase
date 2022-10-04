@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="people_info_Array" directorySegmentName="seg_0" id="CD7BFC74-59CB-6211-E72C-55164A4566E6">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:43:27 UTC</createdTime>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<predefined>false</predefined>
+<dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+<size></size>
+<type>4A498DD7-4BA4-F4A0-FB98-A24DF47C41DC</type>
+</dataTypeDescr>
+<maxElement>10</maxElement>
+<type>ARRAY</type>
+</CollectionType>

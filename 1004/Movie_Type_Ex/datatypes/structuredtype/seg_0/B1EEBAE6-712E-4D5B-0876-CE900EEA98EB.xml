@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="exec_info" directorySegmentName="seg_0" id="B1EEBAE6-712E-4D5B-0876-CE900EEA98EB">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:39:21 UTC</createdTime>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<inheritanceRelation>BF452010-B577-67F9-8E2A-24C1C38EC853</inheritanceRelation>
+<instantiable>true</instantiable>
+<parentTypeID>4A498DD7-4BA4-F4A0-FB98-A24DF47C41DC</parentTypeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="netWorth" id="A1460550-F472-C2A9-E820-EC9B2F2A46B7">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:39:58 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>14</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="role" id="9921A330-B190-C4D7-D720-CC7EFEFC70E4">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:40:17 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>20</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="no" id="34435D68-180C-83B8-0690-9827C649605E">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:40:37 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>true</mandatory>
+<precision>8</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="family" id="7A7144A4-989B-1E17-340C-658D27E2DEF8">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:45:30 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<referencerelation>4D65D32E-9DFE-AA1D-6B32-41D21458523B</referencerelation>
+<scale>0</scale>
+<type>44E9CF0E-878C-CC92-858B-3D28A01AE2D9</type>
+<referenceID>4D65D32E-9DFE-AA1D-6B32-41D21458523B</referenceID>
+</Attribute>
+</attributes>
+</StructuredType>

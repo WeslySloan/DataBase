@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60FA4B2E-EFC1-86F6-936B-174BD1FFE053" name="MovieStar">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>551998E2-9917-4095-CA44-760982778E52</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="company" id="D35C2EB0-9DD0-B54F-6913-0BA13F8C1D1D">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>84D98F4E-8AB1-0654-D839-B5604AC73B9F</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="info" id="FEA2DB74-2109-AD9C-DC4F-D7B8CF3D9F40">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>AD252C2F-55EC-24E2-2DB0-0705C1D594E4</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>283D29E3-2A40-B831-2569-18132C3847E5</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="info.gender" id="CB2E7911-F3CA-9F59-1387-BF306004CD1B">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>F81B97A5-3AA5-3DEA-DFFC-B4F1FB0DE776</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>FEA2DB74-2109-AD9C-DC4F-D7B8CF3D9F40</parentObject>
+<structAttributeID>37C08143-FD55-D283-76EF-84ACC7E6E17A</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.family" id="A6084032-EC0A-C945-44BF-013042E70F24">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>614D0419-C1E8-1E34-09CD-1A9BE534813A</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>FEA2DB74-2109-AD9C-DC4F-D7B8CF3D9F40</parentObject>
+<structAttributeID>1E268571-BEC4-9386-67F0-773DC8C0FA6E</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>44E9CF0E-878C-CC92-858B-3D28A01AE2D9</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.family.spouseName" id="2636DF67-23AE-6416-249B-2A483934348A">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>89509BC8-5EF6-C8C4-0AF0-57D88194CE05</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>A6084032-EC0A-C945-44BF-013042E70F24</parentObject>
+<structAttributeID>C3287927-74A6-F1E4-6750-94AAD815B285</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.family.no_of_children" id="E649116E-0344-BAAC-796B-9B38455FC485">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>4E87149F-CD6B-A6AB-261D-D03C463ED38D</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>A6084032-EC0A-C945-44BF-013042E70F24</parentObject>
+<structAttributeID>969BF692-4DA5-0BC9-6EAC-9DE2D8D1B778</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.no" id="9D1972F2-0098-2D74-907F-3EE39517B64C">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>FC6F2522-4658-E4B4-D135-A602D280F9A9</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<parentObject>FEA2DB74-2109-AD9C-DC4F-D7B8CF3D9F40</parentObject>
+<structAttributeID>2C6C90E9-272D-74B3-403D-02E0C08AB20E</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.name" id="CB3419F6-8D62-6045-9267-B644536A0B04">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-30 08:06:37 UTC</createdTime>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<parentObject>FEA2DB74-2109-AD9C-DC4F-D7B8CF3D9F40</parentObject>
+<structAttributeID>BFBC8F7B-C9DF-36C5-62E8-3B8AF96A9EF7</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.address" id="31596525-DF36-6936-BD98-218C2B8602E0">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-30 08:06:37 UTC</createdTime>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>FEA2DB74-2109-AD9C-DC4F-D7B8CF3D9F40</parentObject>
+<structAttributeID>797D6877-4913-B555-27F0-684179FFB31F</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="info.birthdate" id="CB133394-AF59-63E5-EFC8-ACF05489DF31">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-30 08:06:37 UTC</createdTime>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>FEA2DB74-2109-AD9C-DC4F-D7B8CF3D9F40</parentObject>
+<structAttributeID>4E5ECAAD-3E7E-F037-2C40-E6C6B96103D7</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C64270E0-4789-DA3F-9662-C86D9B46137C" name="star_key">
+<createdBy>shhong</createdBy>
+<createdTime>2022-09-27 07:44:56 UTC</createdTime>
+<generatorID>92C596F5-E020-9144-05CD-2AB6473E5157</generatorID>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D1972F2-0098-2D74-907F-3EE39517B64C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D0A9EA14-084F-7EEA-1D5A-C72B9EA9FB64" mainViewID="AE31D29E-993B-68B7-5700-3EB21336333D">
+<createdBy>shhong</createdBy>
+<createdTime>2019-09-02 14:05:57 UTC</createdTime>
+<ownerDesignName>2019_MovieDB1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

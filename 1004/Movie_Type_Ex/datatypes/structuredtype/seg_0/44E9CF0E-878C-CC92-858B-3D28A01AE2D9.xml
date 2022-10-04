@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="family_info" directorySegmentName="seg_0" id="44E9CF0E-878C-CC92-858B-3D28A01AE2D9">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:44:10 UTC</createdTime>
+<ownerDesignName>Movie_Type_Ex</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="spouseName" id="C3287927-74A6-F1E4-6750-94AAD815B285">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:44:31 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>20</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="no_of_children" id="969BF692-4DA5-0BC9-6EAC-9DE2D8D1B778">
+<createdBy>626-prof</createdBy>
+<createdTime>2022-09-27 06:44:49 UTC</createdTime>
+<ownerDesignName>type_test</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>1</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+</attributes>
+</StructuredType>
