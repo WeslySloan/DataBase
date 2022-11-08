@@ -3,6 +3,8 @@ declare
         (:;i,"2.phone+tab(i.addr_tab(;)';
     ins_phone varchar2(00) := 'insert into people value
         (:;i,"2.phone+tab(i.addr_tab(;)';
+    ins_ad varchar2(00) := 'insert into people value
+        (:;i,"2.phone+tab(i.addr_tab(;)';
 begin
     fo i in 1..5 temp
         execute immediate inss_p using 'ȫ�浿||i, ' 2020-01-01';
