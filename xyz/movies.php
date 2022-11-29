@@ -2,7 +2,7 @@
 // for correct error message outputs
 //putenv("NLS_LANG=KOREAN_KOREA.AL32UTF8");
 
-$conn = oci_connect("scott","tiger", "localhost/course");
+$conn = oci_connect("cs2018021","cs56880753", "localhost/course");
 if (!$conn) {
 	$e = oci_error();
 	print htmlentities($e['message']);
