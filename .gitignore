@@ -2,3 +2,4 @@
 **/*.local
 **/*.git
 **/*.DS_Store
+/1129/nbproject/private/
